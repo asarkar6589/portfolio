@@ -1,0 +1,61 @@
+#education {
+    width: 100%;
+    height: 90vh;
+    // border: 2px solid black;
+    background-color: $color1;
+
+    > h1 {
+        text-align: center;
+        font: 900 3rem $text1;
+        letter-spacing: 1px;
+        text-decoration: underline;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+        // background-color: $color5;
+        margin-top: -10px;
+
+        .edu {
+            width: 80%;
+            height: 210px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            background-color: $color4;
+            margin: auto;
+            transition: all 0.3s;
+            background-color: $color5;
+            color: $color1;
+
+            > p {
+                font: 400 1.5rem $text2;
+                text-align: center;
+                // color: $color4;
+            }
+
+            >a > img {
+                width: 170px;
+                height: 170px;
+                object-fit: contain;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .edu2 {
+            margin-top: 20px;
+        }
+
+        .edu1 > a > img, .edu2 > a > img {
+            margin-right: 7px;
+        }
+    }
+}

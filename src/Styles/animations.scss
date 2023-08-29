@@ -1,0 +1,17 @@
+@keyframes animateImage {
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes animateSvg {
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes animateImage2 {
+    to {
+        transform: translateY(-40px);
+    }
+}

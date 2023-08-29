@@ -1,0 +1,27 @@
+{
+    "projects": [
+      {
+        "date": "14/06/2023",
+        "title": "XCRYPTO",
+        "description": "It is a basic app which shows a list of exchanges, coins and about their information.",
+        "url": "https://crypto-app-one-alpha.vercel.app/",
+        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+      },
+  
+      {
+        "date": "25/06/2022",
+        "title": "REACT CART",
+        "description": "This is a shopping cart made using redux toolkit.",
+        "url": "https://cart-app-wine.vercel.app/",
+        "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+      },
+
+      {
+        "date": "25/06/2022",
+        "title": "Todo App",
+        "description": "This is MERN stack Todo App which is made using MERN technologies. Click the button below to visit the site.",
+        "url": "https://mern-todo-app-sigma.vercel.app/login",
+        "imgSrc": "https://cdn.pixabay.com/photo/2017/10/14/09/56/journal-2850091_1280.jpg"
+      }
+    ]
+}

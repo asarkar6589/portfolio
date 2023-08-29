@@ -1,0 +1,70 @@
+#contact {
+    width: 100%;
+    height: 100vh;
+    // border-top: 1px solid green;
+    display: flex;
+
+    > div {
+        // border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .container1 {
+        flex-direction: column;
+        background-color: $color6_2;
+        font: 900 1.7rem $text1;
+        width: 100%;
+
+        > form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+            font: 900 1.7rem $text1;
+
+            > input, textarea {
+                width: 80%;
+                height: 60px;
+                margin-top: 7px;
+                margin-bottom: 7px;
+                padding: 5px;
+                outline: none;
+                border: none;
+            }
+
+            > button {
+                width: 80%;
+                height: 60px;
+                padding: 5px;
+                background-color: $color3;
+                color: $color1;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .container2 {
+        background-color: $color5;
+        width: 100%;
+
+        > img {
+            width: 600px;
+            height: 600px;
+            object-fit: contain;
+            filter: drop-shadow(0px 7px 5px blue) hue-rotate(156deg);
+            animation: animateImage2 2s infinite ease-in-out alternate;
+        }
+    }
+}
+
+.disabledbtn {
+    color: $color6;
+    background-color: rgb(191, 191, 191) !important;
+    cursor: not-allowed !important;
+}
